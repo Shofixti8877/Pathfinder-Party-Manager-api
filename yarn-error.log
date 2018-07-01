@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev babel-cli babel-present-env
+
+PATH: 
+  C:\Users\S\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\S\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Calibre2;C:\Android;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\S\AppData\Local\atom\bin;C:\Users\S\AppData\Roaming\npm;C:\Users\S\AppData\Local\Yarn\bin;C:\Users\S\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.2.0
+
+Node version: 
+  6.11.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "pathfinder-party-manager-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-present-env: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:61949:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:122920:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:123903:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:123823:12)
+      at IncomingMessage.g (events.js:292:16)
+      at emitNone (events.js:91:20)
+      at IncomingMessage.emit (events.js:185:7)
